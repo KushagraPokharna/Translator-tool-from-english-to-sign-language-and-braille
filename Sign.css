@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://i.ibb.co/31QCcyC/img2.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  height:100vh
+   }
+
+.titlebox{
+    /* border:2px solid blue; */
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Cherry Bomb One';
+    font-size: 10vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.imgbox{
+    /* border: 2px solid green; */
+    display:flex;
+    justify-content: flex-start;
+    /* max-width: 800px; */
+    margin:auto;
+    margin-top: 5vh;
+    flex-wrap:wrap;
+}
+.signbox{
+    /* border: 2px solid black; */
+    margin: 0px;
+}
+.imgstyle{
+    width:110px;
+    height:100px
+}
+.formbox{
+    /* border:2px solid blue; */
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10vh;
+}
+.btnbox{
+    width:100%;
+    /* background-color: aquamarine; */
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btnstyle{
+    width:300px;
+    height:45px;
+    /* border-radius: 5px; */
+    background-color: #fff;
+    border: 1px solid white;
+    font-family: 'Raleway';
+    font-size: 22px;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.formstyle{
+    /* max-width: 700px; */
+    /* border: 2px solid red; */
+    margin:auto;
+
+}
+
+.inputstyle{
+    margin:auto;
+    /* margin-left: 3%; */
+    width: 98%;
+    background-color: #FFFF;
+    border: 1px solid white;
+    height:70px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 500px){
+    .imgstyle{
+        width:70px;
+        height:70px
+    }
+    .imgbox{
+        margin-left: 7.5%;
+    }
+}

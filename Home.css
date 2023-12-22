@@ -1,0 +1,74 @@
+.homepg{
+    width:100%;
+    height:100vh;
+    background-image: url("https://wallpaperaccess.com/full/3910193.jpg");
+    background-size: cover;
+    padding-top: 10vh;
+}
+/* Old image : "https://wallpaperaccess.com/full/3910193.jpg" */
+
+.tbox{
+    /* border:2px solid red; */
+    max-width: 800px;
+    font-family: 'Cherry Bomb One';
+    font-size: 12vh;
+    text-align: center;
+    margin: auto;    
+    animation: move 3s infinite;
+}
+
+.btn1{
+    width:360px;
+    height:70px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 15vh;
+    text-align: center;
+    line-height: 70px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 22.5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.btn2{
+    width: 300px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 40px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 22.5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+.inputstyl{
+  /* border:2px solid rgb(178, 160, 160); */
+  width:30%;
+  margin: auto;
+  text-align: center;
+  
+}
+.content{
+    font-family: Quicksand;
+    /* border:2px solid blue; */
+    width:600px;
+    margin: auto;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+}
+@keyframes move {
+    0% {
+      transform: translateY(0px);
+    }
+  
+    50% {
+      transform: translateY(-10px);
+    }
+  
+    100% {
+      transform: translateY(0px);
+    }
+  }
